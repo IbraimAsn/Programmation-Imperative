@@ -115,7 +115,7 @@ int main()
     printf("Matrix%d:\n",1);
     display_matrix(matrix1,dimensions_matrix1[0],dimensions_matrix1[1]);
     multiply_matrices(matrix0,dimensions_matrix0,matrix1,dimensions_matrix1,matrix2);
-    printf("\nMatrix%d * Matrix%d:\n",0,1);
+    printf("\nMatrix%d x Matrix%d:\n",0,1);
     display_matrix(matrix2,dimensions_matrix0[0],dimensions_matrix1[1]);
     free_matrix(matrix0,dimensions_matrix0[0]);
     free_matrix(matrix1,dimensions_matrix1[0]);
